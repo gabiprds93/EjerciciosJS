@@ -56,3 +56,15 @@ function ejercicio4(string){
   console.log("tiene "+longitud+" palabras \n")
 }
 ejercicio4("el mundo es tan cruel");
+
+//Ejercicio 5 Gaby
+function largo(arreglo)
+{
+    var mayor = 0;
+    for(var i in arreglo)
+    {
+        if(arreglo[i].length > mayor)
+            mayor = arreglo[i].length;
+    }
+    return mayor;
+}
