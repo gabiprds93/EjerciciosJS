@@ -45,3 +45,14 @@ function contarLetra(separar,c){
 console.log(caracter);
 }
 contarLetra(separar,c)
+
+//mariley 
+//-----------------------------ejericcio 4
+console.log("ejercicios 4")
+function ejercicio4(string){
+  var cadena = string.split(" ");
+  var  longitud = cadena.length;
+  console.log(string);
+  console.log("tiene "+longitud+" palabras \n")
+}
+ejercicio4("el mundo es tan cruel");
