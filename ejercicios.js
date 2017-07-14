@@ -27,7 +27,7 @@ return resultado;
 }
 console.log(potencia(5,2));
 
-//ejercicio 3 de Esther
+//ejercicio 3 de Esther precticando
 
 var array =["murcielago","pato","caballo","zebra"];
 var unir = array.join("");
