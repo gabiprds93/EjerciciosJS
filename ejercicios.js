@@ -68,3 +68,27 @@ function largo(arreglo)
     }
     return mayor;
 }
+
+//ejercicio 6
+
+
+var  A=["ojo","mouse","lapiz"];
+
+function contadorDeVocales(A){
+
+ var contador = 0;
+var palabras = A.join("");
+
+
+
+  for(var x =0; x < palabras.length;x++)
+{
+  if ((palabras.charAt(x)=='a') || (palabras.charAt(x)=='e') || (palabras.charAt(x)=='i') || (palabras.charAt(x)=='o') || (palabras.charAt(x)=='u'))
+  {
+    contador++;
+  }
+}
+
+ console.log(contador);
+}
+contadorDeVocales(A);
